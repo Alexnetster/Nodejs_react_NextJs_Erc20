@@ -43,13 +43,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 $env:Path = "C:\Program Files\nodejs;" + $env:Path
 node -v
 npm -v
-cd E:\git.repo\diverse_creta
+cd E:\git.repo\web3_erc20
 npm run dev
 ```
 
 2) npm 전체 경로로 바로 실행
 ```powershell
-cd E:\git.repo\diverse_creta
+cd E:\git.repo\web3_erc20
 "C:\Program Files\nodejs\npm.cmd" run dev
 ```
 
@@ -58,7 +58,7 @@ cd E:\git.repo\diverse_creta
 
 
 
-PS E:\git.repo\diverse_creta>   npx hardhat run scripts/deploy.ts --network sepolia
+PS E:\git.repo\web3_erc20>   npx hardhat run scripts/deploy.ts --network sepolia
 [dotenv@17.2.3] injecting env (3) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
 [dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
 file:///E:/git.repo/diverse_creta/scripts/deploy.ts:1
@@ -75,7 +75,7 @@ const { ethers } = pkg;
     at async ModuleJob.run (node:internal/modules/esm/module_job:337:5)
     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
-PS E:\git.repo\diverse_creta> npm run hh:deploy:sepolia
+PS E:\git.repo\web3_erc20> npm run hh:deploy:sepolia
 
 > diverse_creta@0.1.0 hh:deploy:sepolia
 > hardhat run scripts/deploy.ts --network sepolia
@@ -84,13 +84,13 @@ PS E:\git.repo\diverse_creta> npm run hh:deploy:sepolia
 [dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
 (node:25740) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///E:/git.repo/diverse_creta/scripts/deploy.ts is not specified and it doesn't parse as CommonJS.
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to E:\git.repo\diverse_creta\package.json.
+To eliminate this warning, add "type": "module" to E:\git.repo\web3_erc20\package.json.
 (Use `node --trace-warnings ...` to show where the warning was created)
 TokenFactory: 0x619292fC0500fb30c53577a306074484EDb3B166
-PS E:\git.repo\diverse_creta>
+PS E:\git.repo\web3_erc20>
 
 
-PS E:\git.repo\diverse_creta> npm run hh:deploy:sepolia
+PS E:\git.repo\web3_erc20> npm run hh:deploy:sepolia
 
 > diverse_creta@0.1.0 hh:deploy:sepolia
 > hardhat run scripts/deploy.ts --network sepolia
@@ -100,12 +100,12 @@ Compiled 13 Solidity files successfully (evm target: paris).
 [dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
 (node:29444) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///E:/git.repo/diverse_creta/scripts/deploy.ts is not specified and it doesn't parse as CommonJS.
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to E:\git.repo\diverse_creta\package.json.
+To eliminate this warning, add "type": "module" to E:\git.repo\web3_erc20\package.json.
 (Use `node --trace-warnings ...` to show where the warning was created)
 TokenFactory: 0x2e156f1dBD8605A2506FD9493213733E93252d9D
-PS E:\git.repo\diverse_creta>
+PS E:\git.repo\web3_erc20>
 
-PS E:\git.repo\diverse_creta> npm run hh:compile
+PS E:\git.repo\web3_erc20> npm run hh:compile
 
 > diverse_creta@0.1.0 hh:compile
 > hardhat compile
@@ -113,7 +113,7 @@ PS E:\git.repo\diverse_creta> npm run hh:compile
 [dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
 Nothing to compile
 No need to generate any newer typings.
-PS E:\git.repo\diverse_creta> npm run hh:deploy:sepolia
+PS E:\git.repo\web3_erc20> npm run hh:deploy:sepolia
 
 > diverse_creta@0.1.0 hh:deploy:sepolia
 > hardhat run scripts/deploy.ts --network sepolia
@@ -122,7 +122,7 @@ PS E:\git.repo\diverse_creta> npm run hh:deploy:sepolia
 [dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
 (node:3252) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///E:/git.repo/diverse_creta/scripts/deploy.ts is not specified and it doesn't parse as CommonJS.
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to E:\git.repo\diverse_creta\package.json.
+To eliminate this warning, add "type": "module" to E:\git.repo\web3_erc20\package.json.
 (Use `node --trace-warnings ...` to show where the warning was created)
 TokenFactory: 0xf165A010265372872fB3fC61CF96b130111BC581
-PS E:\git.repo\diverse_creta>
+PS E:\git.repo\web3_erc20>
